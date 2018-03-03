@@ -1,6 +1,6 @@
-# Documento de Visão do Projeto "Quick Issue"
+# Documento de Visão do Projeto "BetterUni"
 
-Este documento apresenta uma solução de software para o projeto *Quick Issue*, solicitado pelo cliente *Universidade Presbiteriana Mackenzie*, apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades esperadas do sistema.
+Este documento apresenta uma solução de software para o projeto *BetterUni*, solicitado pelo cliente *Universidade Presbiteriana Mackenzie*, apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades esperadas do sistema.
 
 ## Objetivos
 
@@ -15,17 +15,11 @@ O objetivo deste software é solucionar problemas da universidade através de um
 
 ## Definições, abreviações e outros termos do domínio do problema
 
-* Definição 1
-* Definição 2
-* Definição 3
-* etc.
+* Em processo de definição.
 
 ## Integração com outros sistemas
 
-* Sistema externo 1
-* Sistema externo 2
-* Sistema externo 3
-* etc.
+* Não haverá integração com outros sistemas.
  
 ## Interessados
 
@@ -40,16 +34,13 @@ O objetivo deste software é solucionar problemas da universidade através de um
 
 ## Funcionalidades do produto
 
-* Funcionalidade 1
-* Funcionalidade 2
-* etc.
+* Gestão de problemas.
+* Status report.
 
 ## Restrições do projeto
 
-* Restrição 1
-* Restrição 2
-* Restrição 3
-* etc.
+* Será uma plataforma web responsiva.
+* Terá uso exclusivo dos participantes da universidade.
 
 ## Protótipos de tela
 
