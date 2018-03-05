@@ -74,6 +74,8 @@ O sistema deve exibir, criar, alterar ou excluir de acordo com a escolha do usu�
 #### 2.1.7 PONTOS DE EXTENSÃO
 Administradores poderão manter todos os posts.
 
+***
+
 ### 2.1. Caso de uso: **MANTER USUÁRIO**
 
 #### 2.2.1 BREVE DESCRIÇÃO
@@ -143,6 +145,8 @@ O sistema deve exibir, criar, alterar ou excluir de acordo com a escolha do usu�
 #### 2.2.7 PONTOS DE EXTENSÃO
 Administradores poderão manter todos os posts.
 
+***
+
 ### 2.3. Caso de uso: **AVALIAR POST**
 
 #### 2.3.1 BREVE DESCRIÇÃO
@@ -177,6 +181,8 @@ A quantidade de likes do post deve ser aumentada.
 
 #### 2.3.7 PONTOS DE EXTENSÃO
 Não se aplica.
+
+***
 
 ### 2.4. Caso de uso: **GERAR RELATÓRIOS**
 
@@ -219,6 +225,8 @@ Relatório solicitado pelo usuário deves ser gerado de acordo com as preferênc
 #### 2.4.7 PONTOS DE EXTENSÃO
 Administradores poderão manter todos os posts.
 
+***
+
 ### 2.5. Caso de uso: **MODIFICAR PRIVILÉGIO DE ACESSO**
 
 #### 2.5.1 BREVE DESCRIÇÃO
@@ -255,6 +263,8 @@ Usuário deve ter privilégios de acesso alterados.
 
 #### 2.5.7 PONTOS DE EXTENSÃO
 Não se aplica.
+
+***
 
 ### 2.6. Caso de uso: **COMENTAR**
 
@@ -294,6 +304,8 @@ Comentário deve ser salvo com sucesso.
 #### 2.6.7 PONTOS DE EXTENSÃO
 Não se aplica.
 
+***
+
 ### 2.7. Caso de uso: **EXCLUIR COMENTÁRIO**
 
 #### 2.7.1 BREVE DESCRIÇÃO
@@ -327,6 +339,8 @@ Comentário deve ser excluído com sucesso.
 
 #### 2.7.7 PONTOS DE EXTENSÃO
 Não se aplica.
+
+***
 
 ### 2.8. Caso de uso: **ENTRAR EM CONTATO**
 
