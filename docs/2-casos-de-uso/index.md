@@ -218,3 +218,147 @@ Relatório solicitado pelo usuário deves ser gerado de acordo com as preferênc
 
 #### 2.4.7 PONTOS DE EXTENSÃO
 Administradores poderão manter todos os posts.
+
+### 2.5. Caso de uso: **MODIFICAR PRIVILÉGIO DE ACESSO**
+
+#### 2.5.1 BREVE DESCRIÇÃO
+Este caso de uso tem como objetivo modificar os privilégios de acesso dos usuários do sistema.
+
+#### 2.5.2 ATORES
+Administração.
+
+#### 2.5.3 PRÉ-CONDIÇÕES
+1. Os atores devem estar logados no sistema.
+2. Os atores devem estar cadastrados no sistema, assim como o usuário que terá seu privilégio de acesso modificado.
+
+#### 2.5.4 FLUXO DE EVENTOS
+
+##### 2.5.4.1 FLUXO PRINCIPAL
+
+[FP01] – Modificar privilégio
+1. Usuário administrador clica em “dashboard”.
+2. Sistema exibe lista de usuários.
+3. O ator seleciona usuário a ter a permissão alterada.
+4. Sistema disponibiliza dois tipos de acesso para serem selecionados.
+5. O ator seleciona o tipo de permissão a ser atribuído.
+6. Sistema faz a alteração.
+7. O sistema envia e-mail para notificando alteração para o usuário.
+
+##### 2.5.4.2 FLUXOS ALTERNATIVOS
+Não se aplica.
+
+#### 2.5.5 REQUISITOS ESPECIAIS
+Não se aplica.
+
+#### 2.5.6 PÓS-CONDIÇÕES
+Usuário deve ter privilégios de acesso alterados.
+
+#### 2.5.7 PONTOS DE EXTENSÃO
+Não se aplica.
+
+### 2.6. Caso de uso: **COMENTAR**
+
+#### 2.6.1 BREVE DESCRIÇÃO
+Este caso de uso tem como objetivo comentar os posts feitos por usuários.
+
+#### 2.6.2 ATORES
+Usuário comum ou Administrador.
+
+#### 2.6.3 PRÉ-CONDIÇÕES
+Usuários estarem logados no sistema.
+
+#### 2.6.4 FLUXO DE EVENTOS
+
+##### 2.6.4.1 FLUXO PRINCIPAL
+
+[FP01] - Fazer comentário
+1. O ator clica em “dashboard”.
+2. O Sistema exibe lista de posts.
+3. O ator seleciona o post.
+4. O sistema exibe informações detalhadas do post.
+5. O ator digita comentário.
+6. O ator clica em “comentar”.
+7. O sistema envia um e-mail ao usuário do post dizendo que houve um comentário.
+8. O sistema atualiza o post incluindo o comentário.
+9. O sistema redireciona para a página do post já atualizada.
+
+##### 2.6.4.2 FLUXOS ALTERNATIVOS
+Não se aplica.
+
+#### 2.6.5 REQUISITOS ESPECIAIS
+O comentário deve ser incluído no post.
+
+#### 2.6.6 PÓS-CONDIÇÕES
+Comentário deve ser salvo com sucesso.
+
+#### 2.6.7 PONTOS DE EXTENSÃO
+Não se aplica.
+
+### 2.7. Caso de uso: **EXCLUIR COMENTÁRIO**
+
+#### 2.7.1 BREVE DESCRIÇÃO
+Este caso de uso tem como objetivo excluir comentários dos posts feitos por usuários.
+
+#### 2.7.2 ATORES
+Usuário comum.
+
+#### 2.7.3 PRÉ-CONDIÇÕES
+Usuários estarem logados no sistema.
+
+#### 2.7.4 FLUXO DE EVENTOS
+
+##### 2.7.4.1 FLUXO PRINCIPAL
+
+[FP01] - Excluir comentário
+1. O ator clica em “dashboard”.
+2. O Sistema exibe lista de posts.
+3. O ator seleciona o post.
+4. O sistema exibe informações detalhadas do post.
+5. O ator clica no símbolo da lixeira para excluir comentário.
+
+##### 2.7.4.2 FLUXOS ALTERNATIVOS
+Não se aplica.
+
+#### 2.7.5 REQUISITOS ESPECIAIS
+Não se aplica.
+
+#### 2.7.6 PÓS-CONDIÇÕES
+Comentário deve ser excluído com sucesso.
+
+#### 2.7.7 PONTOS DE EXTENSÃO
+Não se aplica.
+
+### 2.8. Caso de uso: **ENTRAR EM CONTATO**
+
+#### 2.8.1 BREVE DESCRIÇÃO
+Este caso de uso tem como objetivo enviar uma mensagem do usuário para os administradores do sistema .
+
+#### 2.8.2 ATORES
+Usuário comum.
+
+#### 2.8.3 PRÉ-CONDIÇÕES
+Não se aplica.
+
+#### 2.8.4 FLUXO DE EVENTOS
+
+##### 2.8.4.1 FLUXO PRINCIPAL
+
+[FP01] - Excluir comentário
+1. Ator clica em “contato”.
+2. O Sistema traz tela de contato.
+3. O Ator preenche o formulário com os dados.
+4. O ator clica em “enviar”.
+5. O Sistema notifica o usuário que a mensagem foi enviada.
+6. O sistema envia uma mensagem para o e-mail do BetterUni.
+
+##### 2.8.4.2 FLUXOS ALTERNATIVOS
+Não se aplica.
+
+#### 2.8.5 REQUISITOS ESPECIAIS
+Não se aplica.
+
+#### 2.8.6 PÓS-CONDIÇÕES
+Mensagem escrita pelo usuário deve ser enviada com sucesso pela administração do BetterUni.
+
+#### 2.8.7 PONTOS DE EXTENSÃO
+Não se aplica.
