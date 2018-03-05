@@ -129,7 +129,7 @@ Os atores devem estar cadastrados no sistema (Exceto para criar usuário).
 2. Administrador escolhe usuário a ser aprovado.
 3. Sistema envia e-mail de confirmação de aprovação para usuário.
 
-[FA05] – Verificar usuários da empresa
+[FA06] – Verificar usuários da empresa
 1. Sistema detecta que usuário é administrador.
 2. Usuário clica na opção “Dashboard” do menu.
 3. Sistema exibe na página duas listas, uma incluindo usuários para aprovação e outra dos usuários que pertencem à instituição.
@@ -141,4 +141,80 @@ Não se aplica.
 O sistema deve exibir, criar, alterar ou excluir de acordo com a escolha do usuário.
 
 #### 2.2.7 PONTOS DE EXTENSÃO
+Administradores poderão manter todos os posts.
+
+### 2.3. Caso de uso: **AVALIAR POST**
+
+#### 2.3.1 BREVE DESCRIÇÃO
+Este caso de uso tem como objetivo avaliar o post criados no sistema.
+
+#### 2.3.2 ATORES
+Administração.
+
+#### 2.3.3 PRÉ-CONDIÇÕES
+Os atores devem estar cadastrados no sistema.
+
+#### 2.3.4 FLUXO DE EVENTOS
+
+##### 2.3.4.1 FLUXO PRINCIPAL
+
+[FP01] – Avaliar Post
+1.	O ator seleciona a opção “Dashboard”. (Caso não esteja logado seleciona a opção “Posts” no menu)
+2.	O sistema disponibiliza tela com lista dos posts criados.
+3.	O ator seleciona o post desejado.
+4.	O sistema disponibiliza tela com as informações e um botão de “Like”.
+5.	O ator seleciona o botão de “Like”.
+6.	O sistema exibe mensagem de sucesso.
+
+##### 2.3.4.2 FLUXOS ALTERNATIVOS
+Não se aplica.
+
+##### 2.3.5 REQUISITOS ESPECIAIS
+Não se aplica.
+
+#### 2.3.6 PÓS-CONDIÇÕES
+A quantidade de likes do post deve ser aumentada.
+
+#### 2.3.7 PONTOS DE EXTENSÃO
+Não se aplica.
+
+### 2.4. Caso de uso: **GERAR RELATÓRIOS**
+
+#### 2.4.1 BREVE DESCRIÇÃO
+Este caso de uso tem como objetivo gerar os relatórios dos posts criados no sistema.
+
+#### 2.4.2 ATORES
+Administrador.
+
+#### 2.4.3 PRÉ-CONDIÇÕES
+Os posts devem estar cadastrados no sistema.
+
+#### 2.4.4 FLUXO DE EVENTOS
+
+##### 2.4.4.1 FLUXO PRINCIPAL
+
+[FP01] – Gerar Relatório
+1.	O ator seleciona a opção “Dashboard”.
+2.	O sistema disponibiliza tela com lista dos posts criados.
+3.	O ator seleciona o filtro para pesquisa. [FA01]
+4.	O ator seleciona a opção “filtrar”.
+5.	O sistema disponibiliza lista de posts.
+6.	O Ator clica em “analytics”. [FA02]
+
+##### 2.4.4.1 FLUXOS ALTERNATIVOS
+	
+[FA01] Gerar lista com filtros
+1.	Sistema exibe lista filtros.
+2.	O ator seleciona o filtro desejado.
+
+[FA02] Gerar gráficos
+1.	O sistema exibe dois gráficos, um com quantidade de posts por status e outro por categoria.
+
+#### 2.4.5 REQUISITOS ESPECIAIS
+Não se aplica.
+
+#### 2.4.6 PÓS-CONDIÇÕES
+Relatório solicitado pelo usuário deves ser gerado de acordo com as preferências solicitadas.
+
+#### 2.4.7 PONTOS DE EXTENSÃO
 Administradores poderão manter todos os posts.
