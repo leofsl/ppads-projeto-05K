@@ -44,16 +44,26 @@ O objetivo deste software é solucionar problemas da universidade através de um
 
 ## Protótipos de tela
 
-### Protótipos para funcionalidade 1
+### Home
 
-![](proto1.png)
+![Home](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Home.PNG)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+### Cadastro
 
-### Protótipos para funcionalidade 2
+![Cadastro](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Cadastro.PNG)
 
-![](proto2.png)
+### Login
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+![Login](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Login.PNG)
 
-### Protótipos para funcionalidade N
+### Post
+
+![Post](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Post.png)
+
+### Dashboard ADM
+
+![DashADM](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Dashboard%20ADM.png)
+
+### Contato
+
+![Contato](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Contato.png)
