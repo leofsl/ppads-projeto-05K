@@ -46,24 +46,24 @@ O objetivo deste software é solucionar problemas da universidade através de um
 
 ### Home
 
-![Home](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Home.PNG)
+![Home](Home.PNG)
 
 ### Cadastro
 
-![Cadastro](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Cadastro.PNG)
+![Cadastro](Cadastro.PNG)
 
 ### Login
 
-![Login](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Login.PNG)
+![Login](Login.PNG)
 
 ### Post
 
-![Post](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Post.png)
+![Post](Post.png)
 
 ### Dashboard ADM
 
-![DashADM](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Dashboard%20ADM.png)
+![DashADM](Dashboard%20ADM.png)
 
 ### Contato
 
-![Contato](https://github.com/leofsl/ppads-projeto-05K/blob/master/docs/1-visao/Contato.png)
+![Contato](Contato.png)
