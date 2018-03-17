@@ -2,7 +2,7 @@
 
 ## 1. Diagrama de casos de uso
 
-![Diagrama dos casos de uso](Diagrama%20Casos%20de%20Uso.PNG)
+![Diagrama dos casos de uso](Diagrama%20Casos%20de%20Uso.jpg)
 
 ## 2. Especificação dos casos de uso
 
