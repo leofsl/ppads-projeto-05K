@@ -7,8 +7,13 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
+<<<<<<< HEAD
 <project name="MunkaAppEE" default="default" basedir="." xmlns:ear="http://www.netbeans.org/ns/j2ee-earproject/2">
     <description>Builds, tests, and runs the project MunkaAppEE.</description>
+=======
+<project name="MunkaAppDAL" default="default" basedir=".">
+    <description>Builds, tests, and runs the project MunkaAppDAL.</description>
+>>>>>>> ca52fc694a8b9453b0c088d71af3e871b45b0f6e
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -16,6 +21,7 @@
     used for execution of your tasks. These targets are usually executed 
     before and after some main targets. They are: 
 
+<<<<<<< HEAD
       pre-init:                 called before initialization of project properties 
       post-init:                called after initialization of project properties 
       pre-compile:              called before javac compilation 
@@ -29,6 +35,27 @@
     Example of pluging an obfuscator after the compilation could look like 
 
         <target name="post-compile">
+=======
+      -pre-init:                 called before initialization of project properties
+      -post-init:                called after initialization of project properties
+      -pre-compile:              called before javac compilation
+      -post-compile:             called after javac compilation
+      -pre-compile-single:       called before javac compilation of single file
+      -post-compile-single:      called after javac compilation of single file
+      -pre-compile-test:         called before javac compilation of JUnit tests
+      -post-compile-test:        called after javac compilation of JUnit tests
+      -pre-compile-test-single:  called before javac compilation of single JUnit test
+      -post-compile-test-single: called after javac compilation of single JUunit test
+      -pre-jar:                  called before JAR building
+      -post-jar:                 called after JAR building
+      -post-clean:               called after cleaning build products
+
+    (Targets beginning with '-' are not intended to be called on their own.)
+
+    Example of inserting an obfuscator after compilation could look like this:
+
+        <target name="-post-compile">
+>>>>>>> ca52fc694a8b9453b0c088d71af3e871b45b0f6e
             <obfuscate>
                 <fileset dir="${build.classes.dir}"/>
             </obfuscate>
@@ -38,6 +65,7 @@
     nbproject/build-impl.xml file. 
 
 
+<<<<<<< HEAD
     Other way how to customize the build is by overriding existing main targets.
     The target of interest are: 
 
@@ -47,14 +75,37 @@
     Example of overriding the target for project execution could look like 
 
         <target name="run" depends="<PROJNAME>-impl.jar">
+=======
+    Another way to customize the build is by overriding existing main targets.
+    The targets of interest are: 
+
+      -init-macrodef-javac:     defines macro for javac compilation
+      -init-macrodef-junit:     defines macro for junit execution
+      -init-macrodef-debug:     defines macro for class debugging
+      -init-macrodef-java:      defines macro for class execution
+      -do-jar:                  JAR building
+      run:                      execution of project 
+      -javadoc-build:           Javadoc generation
+      test-report:              JUnit report generation
+
+    An example of overriding the target for project execution could look like this:
+
+        <target name="run" depends="MunkaAppDAL-impl.jar">
+>>>>>>> ca52fc694a8b9453b0c088d71af3e871b45b0f6e
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
         </target>
 
+<<<<<<< HEAD
     Notice that overridden target depends on jar target and not only on 
     compile target as regular run target does. Again, for list of available 
     properties which you can use check the target you are overriding in 
+=======
+    Notice that the overridden target depends on the jar target and not only on 
+    the compile target as the regular run target does. Again, for a list of available 
+    properties which you can use, check the target you are overriding in the
+>>>>>>> ca52fc694a8b9453b0c088d71af3e871b45b0f6e
     nbproject/build-impl.xml file. 
 
     -->
