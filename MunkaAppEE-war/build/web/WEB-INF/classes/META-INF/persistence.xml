@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="MunkaAppDALPU" transaction-type="RESOURCE_LOCAL">
+      
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    
+    <class>com.munka.entities.Comentario</class>
+    <class>com.munka.entities.Post</class>
+    <class>com.munka.entities.Instituicao</class>
+    <class>com.munka.entities.StatusPost</class>
+    <class>com.munka.entities.Categoria</class>
+    <class>com.munka.entities.Usuario</class>
+    <class>com.munka.entities.InstituicaoUsuario</class>
+    
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mydbinstancemunka.c2gqbu77hj4j.sa-east-1.rds.amazonaws.com:3306/dbmunka"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="dourado041196"/>
+    </properties>
+  </persistence-unit>
+</persistence>
