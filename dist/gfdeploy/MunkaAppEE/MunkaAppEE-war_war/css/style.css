@@ -1,0 +1,350 @@
+/* Estilo Proprietario */
+@charset "utf-8";
+/* Todas as Paginas*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+html,body{
+    width: 100% !important;}
+
+/* Menu */
+.logo-menu {
+    width: 140px;
+    padding-top: 0.9rem;
+}
+
+.menu-all {
+    background-color: #8b8c8c;
+    height: 70px;
+}
+
+.menu-all2 {
+    background-color: #3c1299;
+    height: 70px;
+}
+
+.box-all {
+    display: inline-block; 
+    padding: 32px 48px 0px 48px; 
+    width: 40rem;
+    margin: 3.5rem;
+}
+
+.box-all-post {
+    display: inline-block; 
+    padding: 40px 30px 20px 30px; 
+    width: 1000px;
+    margin-top: 3.5rem;    
+    margin-bottom: 3.5rem;
+    background-color: #fff;
+}
+
+.box-all-posts {
+    display: inline-block; 
+    padding: 40px 85px 20px 30px; 
+    width: 1000px;
+    margin-top: 3.5rem;    
+    margin-bottom: 3.5rem;
+    background-color: #fff;
+}
+/* FIM Menu */
+/* FIM Todas as Paginas*/
+
+/* Index */
+/* Toda Pagina */
+.transparent-object {
+    background-color: rgba(0,0,0,0);
+}
+
+/* FIM Toda Pagina */
+
+/* Menu Index */
+.menu-index {
+    box-shadow: none;
+    color: gray;
+}
+/* FIM Menu Index */
+
+/* Banner */
+
+.banner-row {
+    height: 580px;
+    color: #FFF;
+    margin: -10px 0 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+
+    background : -moz-linear-gradient(50% 0% -90deg,rgba(237, 140, 173, 1) 0%,rgba(222, 132, 170, 1) 3.32%,rgba(195, 117, 164, 1) 10.36%,rgba(174, 106, 159, 1) 18.07%,rgba(159, 98, 156, 1) 26.68%,rgba(151, 93, 154, 1) 36.93%,rgba(148, 92, 153, 1) 53.01%,rgba(85, 77, 140, 1) 100%);
+    background : -webkit-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    background : -webkit-gradient(linear,50% 0% ,50% 100% ,color-stop(0,rgba(237, 140, 173, 1) ),color-stop(0.0332,rgba(222, 132, 170, 1) ),color-stop(0.1036,rgba(195, 117, 164, 1) ),color-stop(0.1807,rgba(174, 106, 159, 1) ),color-stop(0.2668,rgba(159, 98, 156, 1) ),color-stop(0.3693,rgba(151, 93, 154, 1) ),color-stop(0.5301,rgba(148, 92, 153, 1) ),color-stop(1,rgba(85, 77, 140, 1) ));
+    background : -o-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    background : -ms-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD', endColorstr='#554D8C' ,GradientType=0)";
+    background : linear-gradient(180deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD',endColorstr='#554D8C' , GradientType=0);
+
+
+}
+
+.banner-row img{
+    margin: 10px 0 0 0;
+}
+/* FIM Banner */
+
+/* Sobre */
+.sobre-row {  
+    height: 580px;
+    color: #FFF;
+    background-color: #211e2b;
+}
+/* Fim Sobre */
+
+/* Servico */
+.servico-bg {
+    background-color: #FAF2EC;
+    padding: 3rem;
+    heigth: 500px;
+}
+/* FIM Servico */
+
+/* Cadastrar Row */
+.cadastrar-bg {
+    background-image: url("http://www.duoblindagens.com.br/wp-content/uploads/2014/12/cityscapes-night_00241654.jpg");
+    height: 300px;
+    margin-top: -1.3rem;
+}
+
+.cadastrar-btn {
+    border: 1px solid snow;
+    background-color: rgba(0,0,0,0);
+    color: snow;
+    font-family: Roboto;
+    margin-top: 6.5rem;
+}
+
+.cadastrar-btn:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+/* FIM Cadastrar Row */
+/* Fim Index */
+
+/* Perfil */
+
+.img-perfil {
+    width: 150px;
+}
+
+.nome-usuario {
+    font-weight: 100;
+}
+
+/* TODO: RESPONSIVE BOX */
+/* FIM Perfil*/
+
+/* Login */
+.logo-login {
+    width: 325px;
+}
+
+.box-login {
+    width: 30rem;
+    background-color: #FFF;
+}
+
+.remember-pass {
+    float: left;
+}
+
+.login-bg {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background : -moz-linear-gradient(50% 100% 90deg,rgba(237, 140, 173, 1) 0%,rgba(222, 132, 170, 1) 3.32%,rgba(195, 117, 164, 1) 10.36%,rgba(174, 106, 159, 1) 18.07%,rgba(159, 98, 156, 1) 26.68%,rgba(151, 93, 154, 1) 36.93%,rgba(148, 92, 153, 1) 53.01%,rgba(85, 77, 140, 1) 100%);
+    background : -webkit-linear-gradient(90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    background : -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0,rgba(237, 140, 173, 1) ),color-stop(0.0332,rgba(222, 132, 170, 1) ),color-stop(0.1036,rgba(195, 117, 164, 1) ),color-stop(0.1807,rgba(174, 106, 159, 1) ),color-stop(0.2668,rgba(159, 98, 156, 1) ),color-stop(0.3693,rgba(151, 93, 154, 1) ),color-stop(0.5301,rgba(148, 92, 153, 1) ),color-stop(1,rgba(85, 77, 140, 1) ));
+    background : -o-linear-gradient(90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    background : -ms-linear-gradient(90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD', endColorstr='#554D8C' ,GradientType=0)";
+    background : linear-gradient(0deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#554D8C',endColorstr='#ED8CAD' , GradientType=0);
+}
+/* FIM Login */
+
+/* Dashboard */
+.dash-table {
+    margin: 3rem 0 3rem 0;
+}
+
+.selected-sub {
+    background-color: gray;
+}
+
+.dash-sub {
+    color: #FFF;
+}
+/* FIM Dashboard */
+
+/*Contact*/
+#contact-item{
+    margin-top: 20px;
+}
+
+.img-profile{
+    width: 75%;
+    margin: 20px;
+}
+
+.collapsible{
+    width: 45%;
+}
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+
+#header1 , #header2{
+    width: 50%;
+}
+
+.nav-profile{
+    width:94%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.nav-profile li{
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    border: 1px solid #d4d4d4;
+}
+
+.nav-profile a li{
+    color: #757776;
+}
+
+.nav-profile li:hover{
+    color: #fff;
+    background-color: #b8d8c8;
+}
+
+.nav-profile li:hover a{
+    color: #fff;
+}
+
+.subtitle{
+    margin: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.img-profile{
+    width: 75%; 
+    margin-left: 100px;
+}
+
+.user-info{
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    margin-top: 10px;
+}
+.botao{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.botaoEnviar{
+    display: block;
+    margin: auto;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 16px;
+    color: #757776;
+    background-color: #c0c0c0;
+}
+.botaoEnviar:hover{
+    color: white;
+    background-color: #b8d8c8;
+}
+.botao3{
+    margin: 30px;
+
+}
+.botao3 a{
+    background-color: #c0c0c0;
+}
+
+.botaoEnviar3:hover{
+    display: block;
+    margin: auto;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #b8d8c8;
+
+}
+.botaoEnviar3{
+    display: block;
+    margin: auto;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 16px;
+    color: #757776;
+    background-color: #c0c0c0;
+
+} 
+
+.profile-img{
+    width: 75%;
+}
+
+#texto{
+    z-index: 99;
+    margin: 250px 0 0 600px;
+    position: absolute;
+}
+
+#predio1{
+    z-index: 0;
+    bottom: 120px;
+    position: absolute;
+    width: 100%;  
+}
+
+#predio2{
+    z-index: 1;
+    bottom: 15px;
+    position: absolute;
+    width: 100%;  
+}
+
+#predio3{
+    z-index:99;
+    bottom: -2px;
+    position: absolute;
+    width: 100%;   
+}
+
+#predio4{
+    z-index:99;
+    position: absolute;
+    width: 100%; 
+    bottom: -570px;
+}
+
+.icone{
+    width:39%;
+}
