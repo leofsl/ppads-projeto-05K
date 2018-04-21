@@ -1,0 +1,15 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="profile-header">
+    <div id="header1">
+        <img class="img-profile" src="images/avatar.png" alt="perfil" />
+    </div>
+</div>
+<div>
+    <ul class="nav-profile">
+        <li><a href="perfil.jsp">Perfil - ${usuarioLogado.nomeUsuario}</a></li>
+        <li><a href="FrontControllerServlet?control=Usuario&action=logoff">Logout</a></li>
+    </ul>
+</div>
+
