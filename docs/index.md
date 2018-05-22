@@ -4,7 +4,7 @@
 
 * [Documento de Visão do Projeto](1-visao/)
 * [Casos de Uso](2-casos-de-uso/)
-* Mapas de Navegação
+* [Mapas de Navegação](6-WAE/)
 * [Arquitetura](3-arquitetura/)
 * [Detalhamento dos Componentes](4-componentes)
 * [Plano de Testes](5-testes)
