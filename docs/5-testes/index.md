@@ -493,3 +493,21 @@ Pós-condições: Uma lista de posts é gerada para a visualização e edição 
 Dados necessários: Assunto.
 
 ***
+
+**Nome do caso de uso:** Avaliar Post.
+
+**Procedimento de teste:**
+
+***Testes referentes a avaliação de post:***
+
+●     TC01 - Usuário avalia post
+ 
+Descrição: Este caso de teste tem como objetivo avaliar um post criado no sistema.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, buscado e selecionado o post a ser avaliado e acionado o botão “Like”.
+ 
+Pós-condições: Mensagem de sucesso informando que houve um “Like” no post.
+ 
+Dados necessários: Não há.
+
+***
