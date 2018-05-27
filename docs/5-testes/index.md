@@ -529,3 +529,77 @@ Pós-condições: Mensagem informando que o privilégio foi alterado com sucesso
 Dados necessários: Usuário.
 
 ***
+
+**Nome do caso de uso:** Gerar Relatório de Atendimento.
+
+**Procedimento de teste:**
+
+***Testes referentes a geração de relatórios:***
+
+●	TC01 - Gerar relatório
+ 
+Descrição: Este caso de teste tem como objetivo gerar relatório administrativo para tomadas de decisão.
+ 
+Pré-condições: O usuário administrador deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o filtro e acionado a página “analytics”.
+ 
+Pós-condições: O sistema deve exibe dois gráficos com quantidade de posts por status e categoria.
+ 
+Dados necessários: Post.
+
+***
+
+**Nome do caso de uso:** Comentar.
+
+**Procedimento de teste:**
+
+***Testes referentes a comentário:***
+
+●	TC01 - Fazer comentário
+ 
+Descrição: Este caso de teste tem como objetivo criar comentário em um post já existente.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post a ser comentado, digitado o comentário e botão “COMENTAR” acionado.
+ 
+Pós-condições: Mensagem informando que o comentário foi realizado com sucesso, informações armazenadas no banco de dados e o sistema o exibe no post.
+ 
+Dados necessários: Comentário.
+
+***
+
+**Nome do caso de uso:** Excluir Comentário.
+
+**Procedimento de teste:**
+
+***Testes referentes a exclusão de comentário:***
+
+●     TC01- Usuário deseja excluir seu comentário
+ 
+Descrição: Este caso de teste tem como objetivo excluir um comentário de um post criado no sistema.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado e acionado o botão “lixeira” do comentário feito.
+ 
+Pós-condições: Mensagem informando que o comentário foi excluído com sucesso.
+ 
+Dados necessários: Não há.
+ 
+●     TC02 - Usuário confirmou a exclusão do seu comentário
+ 
+Descrição: Este caso de teste tem como objetivo confirmar a exclusão do comentário de um post criado no sistema.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, acionado o botão “lixeira” do comentário feito e confirmado a exclusão.
+ 
+Pós-condições: Mensagem informando que o comentário foi excluído com sucesso.
+ 
+Dados necessários: Não há.
+ 
+●     TC03 - Usuário não confirmou a exclusão de seu post
+ 
+Descrição: Este caso de teste tem como objetivo impedir a exclusão do comentário de um post criado no sistema, caso o usuário não confirme a exclusão.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, acionado o botão ‘lixeira’ do comentário feito e não confirmado a exclusão.
+ 
+Pós-condições: O comentário ainda consta no post e banco de dados.
+ 
+Dados necessários: Não há.
+
+***
