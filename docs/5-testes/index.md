@@ -309,3 +309,187 @@ Pós-condições: O usuário ainda consta no banco de dados.
 Dados necessários: Não há.
 
 ***
+
+**Nome do caso de uso:** Manter Post.
+
+**Procedimento de teste:**
+
+***Testes referentes à criação de post:***
+ 
+● 	TC01 - Todos os campos válidos
+ 
+Descrição: Este caso de teste tem como objetivo criar um post.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado o botão “Criar Post”, todos os campos são válidos e botão “Excluir Conta” for acionado.
+ 
+Pós-condições: Mensagem de post efetuado com sucesso e post armazenado no banco de dados.
+ 
+Dados necessários: Assunto, local, descrição e categoria.
+ 
+● 	TC02 - Todos os campos inválidos
+ 
+Descrição: Este caso de teste tem como objetivo impedir a criação do post quando todos os campos estão inválidos.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado o botão “Criar Post”, todos os campos são inválidos e botão “SALVAR” for acionado.
+ 
+Pós-condições: Mensagens de erro informando que os campos estão vazios e que o post não foi criado.
+ 
+Dados necessários: Assunto, local, descrição e categoria.
+ 
+● 	TC03 - Campo ‘assunto’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo impedir a criação do post quando o campo 'assunto' esteja vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado o botão “Criar Post”, campo ‘assunto’ estar vazio e botão “SALVAR” for acionado.
+ 
+Pós-condições: Mensagens de erro informando que o campo ‘assunto’ está vazio e que o post não foi criado.
+ 
+Dados necessários: Não há.
+ 
+● 	TC04 - Campo ‘local’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo impedir a criação do post quando o campo 'local' esteja vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado o botão “Criar Post”, campo ‘local’ estar vazio e botão “SALVAR” for acionado.
+ 
+Pós-condições: Mensagens de erro informando que o campo ‘local’ está vazio e que o post não foi criado.
+ 
+Dados necessários: Não há.
+ 
+● 	TC05 - Campo ‘categoria’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo impedir a criação do post quando o campo 'categoria' esteja vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado o botão “Criar Post”, campo ‘categoria’ não selecionado e botão “SALVAR” for acionado.
+ 
+Pós-condições: Mensagens de erro informando que o campo ‘categoria’ está vazio e que o post não foi criado.
+ 
+Dados necessários: Não há. 
+
+● 	TC06 - Campo ‘descrição’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo impedir a criação do post quando o campo 'descrição' esteja vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado o botão “Criar Post”, campo ‘descrição’ estar vazio e botão “SALVAR” for acionado.
+ 
+Pós-condições: Mensagens de erro informando que o campo ‘descrição’ está vazio e que o post não foi criado.
+ 
+Dados necessários: Não há.
+
+***Testes referentes à edição de um post:***
+
+●     TC07 - Alterar assunto
+ 
+Descrição: Este caso de teste tem como objetivo alterar o assunto do post criado no sistema.
+ 
+Pré-condição:  O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, alterado o campo ‘assunto’ e acionado o botão “SALVAR”.
+ 
+Pós-condição: Mensagem de alteração do ‘assunto’ efetuado com sucesso e as informações armazenadas no banco de dados.
+ 
+Dados necessários: Assunto.
+ 
+●     TC08 - Campo ‘assunto’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo garantir que o post não possua o campo ‘assunto’ vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, campo ‘assunto’ vazio e acionado o botão “SALVAR”.
+ 
+Pós-condições: Mensagem de erro informando que o campo ‘assunto’ deve ser preenchido.
+ 
+Dados necessários: Não há.
+ 
+●     TC09 - Alterar local
+ 
+Descrição: Este caso de teste tem como objetivo alterar o local do post criado no sistema.
+ 
+Pré-condição:  O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, alterado o campo ‘local’ e acionado o botão “SALVAR”.
+ 
+Pós-condição: Mensagem de alteração do ‘local’ efetuado com sucesso e as informações armazenadas no banco de dados.
+ 
+Dados necessários: Local.
+ 
+●     TC10 - Campo ‘local’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo garantir que o post não possua o campo ‘local’ vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, campo ‘local’ vazio e acionado o botão “SALVAR”.
+ 
+Pós-condições: Mensagem de erro informando que o campo ‘local’ deve ser preenchido.
+ 
+Dados necessários: Não há.
+ 
+●     TC11 - Alterar descrição
+ 
+Descrição: Este caso de teste tem como objetivo alterar a descrição do post criado no sistema.
+ 
+Pré-condição:  O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, alterado o campo ‘descrição’ e acionado o botão “SALVAR”.
+ 
+Pós-condição: Mensagem de alteração da ‘descrição’ efetuada com sucesso e as informações armazenadas no banco de dados.
+ 
+Dados necessários: Descrição.
+ 
+●     TC12 - Campo ‘descrição’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo garantir que o post não possua o campo ‘descrição’ vazio.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, campo ‘descrição’ vazio e acionado o botão “SALVAR”.
+ 
+Pós-condições: Mensagem de erro informando que o campo ‘descrição’ deve ser preenchido.
+ 
+Dados necessários: Não há.
+ 
+●     TC13 - Alterar foto
+ 
+Descrição: Este caso de teste tem como objetivo alterar a foto do post criado no sistema.
+ 
+Pré-condição: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, ter acionado o botão “Escolher Arquivo”, selecionado uma foto e acionado o botão “SALVAR”.
+ 
+Pós-condição: Mensagem de alteração da ‘foto’ efetuada com sucesso e as informações armazenadas no banco de dados.
+ 
+Dados necessários: Foto.
+
+***Testes referentes à exclusão de post:***
+
+●     TC14- Usuário deseja excluir seu post
+ 
+Descrição: Este caso de teste tem como objetivo excluir um post do usuário cadastrado no sistema.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado e ter acionado o botão ‘lixeira’.
+ 
+Pós-condições: Mensagem informando que o post foi excluído com sucesso.
+ 
+Dados necessários: Não há.
+ 
+●     TC15 - Usuário confirmou a exclusão do seu post
+ 
+Descrição: Este caso de teste tem como objetivo confirmar a exclusão de um post do usuário criado no sistema.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, acionado o botão ‘lixeira’ e confirmado a exclusão.
+ 
+Pós-condições: Mensagem informando que o post foi excluído com sucesso.
+ 
+Dados necessários: Não há.
+ 
+●     TC16 - Usuário não confirmou a exclusão de seu post
+ 
+Descrição: Este caso de teste tem como objetivo impedir a exclusão de um post caso o usuário não confirme a exclusão.
+ 
+Pré-condições: O usuário deve estar logado no sistema, acionado a página ‘dashboard’, selecionado o post desejado, acionado o botão ‘lixeira’ e não confirmado a exclusão.
+ 
+Pós-condições: O post ainda consta no banco de dados.
+ 
+Dados necessários: Não há.
+
+***Testes referentes a pesquisa de post:***
+
+● 	TC17 - Buscar post
+ 
+Descrição: Este caso de teste tem como objetivo pesquisar posts.
+ 
+Pré-condições: O usuário deve estar logado no sistema, a página ‘dashboard’ deve estar selecionada, post desejado deve estar selecionado.
+ 
+Pós-condições: Uma lista de posts é gerada para a visualização e edição (caso o post pertença ao usuário).
+ 
+Dados necessários: Assunto.
+
+***
