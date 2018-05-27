@@ -603,3 +603,49 @@ Pós-condições: O comentário ainda consta no post e banco de dados.
 Dados necessários: Não há.
 
 ***
+
+**Nome do caso de uso:** Entrar em Contato.
+
+**Procedimento de teste:**
+
+***Testes referentes entrar em contato:***
+
+●	TC01 - Entrar em contato
+ 
+Descrição: Este caso de teste tem como objetivo enviar uma mensagem do usuário para os administradores do sistema.
+ 
+Pré-condições: O usuário deve ter acionado a página ‘contato’, preenchido os campos necessários e acionado o botão “ENVIAR”.
+
+Pós-condições: Mensagem informando que a mensagem de envio com sucesso e uma mensagem é encaminhada para o administrador.
+ 
+Dados necessários: Mensagem.
+
+● 	TC02 - Campo ‘e-mail’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo impedir o envio da mensagem do usuário para os administradores do sistema caso o campo 'email' esteja vazio.
+ 
+Pré-condições: O usuário deve ter acionado a página ‘contato’, campo ‘e-mail’ estar vazio e botão “ENVIAR” foi acionado.
+ 
+Pós-condições: Mensagem de erro informando que o campo ‘e-mail’ está vazio e que a mensagem não foi enviada.
+ 
+Dados necessários: Não há.
+ 
+● 	TC03 - Campo ‘e-mail’ inválido
+ 
+Descrição: Este caso de teste tem como objetivo possuir uma máscara a fim de evitar erros do usuário e impedir o envio da mensagem caso o campo 'e-mail’ esteja inválido.
+ 
+Pré-condições:  O usuário deve ter acionado a página ‘contato’, campo ‘e-mail’ contendo caracteres inválidos e botão “ENVIAR” foi acionado.
+ 
+Pós-condições: Mensagem de erro informando que o campo ‘e-mail’ contém caracteres inválidos e que a mensagem não foi enviada.
+ 
+Dados necessários: E-mail.
+
+● 	TC04 - Campo ‘mensagem’ vazio
+ 
+Descrição: Este caso de teste tem como objetivo impedir o envio da mensagem do usuário para os administradores do sistema caso o campo 'mensagem' esteja vazio.
+ 
+Pré-condições: O usuário deve ter acionado a página ‘contato’, campo ‘mensagem’ estar vazio e botão “ENVIAR” foi acionado.
+ 
+Pós-condições: Mensagem de erro informando que o campo ‘mensagem’ está vazio e que a mensagem não foi enviada.
+ 
+Dados necessários: Não há.
