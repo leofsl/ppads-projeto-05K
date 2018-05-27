@@ -511,3 +511,21 @@ Pós-condições: Mensagem de sucesso informando que houve um “Like” no post
 Dados necessários: Não há.
 
 ***
+
+**Nome do caso de uso:** Modificar Privilégios de Acesso.
+
+**Procedimento de teste:**
+
+***Testes referentes a modificação do privilégio de acesso:***
+
+●	TC01 - Usuário modifica privilégio
+ 
+Descrição: Este caso de teste tem como objetivo modificar privilégios de acesso dos usuários cadastrados no sistema.
+ 
+Pré-condições: O usuário administrador deve estar cadastrado no sistema, acionado a página “Dashboard”, selecionado um usuário, acionado o botão “cadeado”, modificado os privilégios e o botão “SALVAR” acionado.
+ 
+Pós-condições: Mensagem informando que o privilégio foi alterado com sucesso.
+ 
+Dados necessários: Usuário.
+
+***
